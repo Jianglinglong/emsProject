@@ -1,0 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Direct
+  Date: 2017/10/13
+  Time: 17:35
+  To change this template use File | Settings | File Templates.
+--%>
+<%@include file="jstl.jspf"%>
+<link rel="stylesheet" type="text/css" href="${basePath}/plugin/uimaker/easyui.css">
+<link rel="stylesheet" type="text/css" href="${basePath}/plugin/uimaker/icon.css">
+<script type="text/javascript" src="${basePath}/plugin/jquery.min.js"></script>
+<script type="text/javascript" src="${basePath}/plugin/jquery.easyui.min.js"></script>
+<%--<script type="text/javascript" src="${basePath}/plugin/uimaker/easyloader.js"></script>--%>
+<script type="text/javascript" src="${basePath}/plugin/uimaker/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="${basePath}/plugin/jquery.md5.js"></script>
+<script type="text/javascript" src="${basePath}/plugin/chart/Chart.bundle.js"></script>
+<script type="text/javascript" src="${basePath}/plugin/chart/utils.js"></script>

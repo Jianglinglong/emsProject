@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	background: url(../images/bg.jpg) no-repeat fixed center;
+	background-size: cover;
+	font-family: "微软雅黑";
+}
+
+.login_box {
+	width: 500px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 15%;
+	border-radius: 5px;
+}
+
+.login_box .in_text {
+	width: 400px;
+	height: 50px;
+	border: 2px solid #fff;
+	border-radius: 13px;
+	margin: 20px auto;
+	text-align: right;
+	position: relative;
+}
+
+.login_box .in_text .in_box {
+	width: 335px;
+	height: 50px;
+	outline: none;
+	border: none;
+	background: rgba(0, 0, 0, 0);
+	color: #fff;
+	font-size: 18px;
+}
+
+.login_box .in_text .place {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	left: 65px;
+	text-align: left;
+	line-height: 50px;
+	color: #fff;
+	cursor: text;
+	font-size: 18px;
+}
+
+.login_box .in_check {
+	width: 400px;
+	height: 50px;
+	border-radius: 13px;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.login_box .but_submit {
+	text-decoration: none;
+	width: 400px;
+	height: 50px;
+	border-radius: 12px;
+	background-color: #009999;
+	cursor: pointer;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*字体图标 */
+
+@font-face {
+	font-family: 'iconfont';
+	/* project id 436983 */
+	src: url('//at.alicdn.com/t/font_436983_p6utlbk5rigxecdi.eot');
+	src: url('//at.alicdn.com/t/font_436983_p6utlbk5rigxecdi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_436983_p6utlbk5rigxecdi.woff') format('woff'), url('//at.alicdn.com/t/font_436983_p6utlbk5rigxecdi.ttf') format('truetype'), url('//at.alicdn.com/t/font_436983_p6utlbk5rigxecdi.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 25px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+	color: #666;
+	line-height: 50px;
+	position: relative;
+	left: -15px;
+}
+
+
